@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles/main.css">
+     </head>
+<body>
+    
+        <form action="">
+                <section class="personal">
+                   
+        <h1 class="f1">Registration form for in coming Students</h1>
+        <legend><h1>Personal Information</h1></legend>
+        <div class="page">
+            <div class="f_name">
+                <label for="first_name">First Name</label>
+                <input type="text" name="firsName" id="first_name">
+            </div>
+            <div class="initial">
+                <label for="intial">Initail (Optional)</label><br>
+                This field is optional if you dont't have an initial dont worry yourself.
+                <input type="text" name="initial" id="initial">
+            </div>
+            <div class="l_name">
+                <label for="l_name">Last Name</label>
+                <input type="text" name="lastName" id="l_name">
+            </div>
+            <div class="page">
+                <div class="male1">
+                    <input type="radio" name="male" id="male">      
+                    <label for="male1">Male</label>
+                   
+                </div>
+                <div class="female">
+                   
+                    <input type="radio" name="female" id="female1">
+                    <label for="female1">Female</label>
+                </div>
+                <div class="other">
+                    <input type="radio" name="other" id="other">
+                    <label for="other1">Other</label>
+                </div>
+            </div>
+            <div class="dob">
+                <div class="page">
+                    <fieldset>
+                        <div class="month">
+                        <label for="month">Month</label><br>
+                        please enter the month in which you were born
+                        <input type="number" name="month" id="">
+                    </div>
+                    <div class="day">
+                        <label for="day">Day</label><br>
+                        please enter the day in which you were born
+                        <input type="number" name="day" id="">
+                    </div>
+                    <div class="year">
+                        <label for="year">Year</label><br>
+                        please enter the year in which you were born
+                        <input type="number" name="year" id="year">
+                    </div>
+                    <div class="upload">
+                        <label for="dob">Please upload your birth certificate</label>
+                        <input type="file" name="dateOfBirth" id="dob">
+                    </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="add">
+                <label for="address">Address</label><br>
+                what is your Address?
+                <input type="text" name="address" id="address">
+            </div>
+            <div class="nationality">
+                <label for="nationality">Nationality</label><br>
+                Please choose your Nationality <br>
+                <select class="nation" name="" id="">
+                    <option value="nationality">select</option>
+                    <option value="nationality">Gambian</option>
+                    <option value="Nagerian">Gambian</option>
+                    <option value="Gahanian">Gambian</option>
+                </select>
+            </div>
+        </div>
+    </section>
+
+    <section class="academic">
+        <div class="page">
+            <div class="grade">
+                <fieldset>
+                    <legend><h1>Academic Information</h1></legend>
+                    <select name="grade" id="grade">
+                        <option value="">What is your most recent grade</option>
+                        <option value="grade">7</option>
+                        <option value="grade">8</option>
+                        <option value="grade">9</option>
+                        <option value="grade">10</option>
+                        <option value="grade">11</option>
+                        <option value="grade">12</option>
+                    </select>
+                </fieldset>
+            </div>
+        </div>
+        <div class="school">
+            <label for="school">What is the name of your most recent School</label>
+            <textarea name="school" id="school" placeholder="" cols="30" rows="10"></textarea>
+        </div>
+    </section>
+    <section class="parent_info">
+        <h1>Parent's or Guardian's Information</h1>
+        <div class="page">
+            <div class="first-name">
+                <label for="first__name">First Name</label>
+                <input type="text" name="firstName" id="first__name">
+            </div>
+            <div class="inaital1">
+                <label for="initial1">Initial (Optional)</label> <br>
+                If you do not have any dont disturb yourself <br>
+                <input type="text" name="initial" id="initial1">
+            </div>
+            <div class="last-name">
+                <label for="last__name">Last Name</label>
+                <input type="text" name="lastName" id="last__name">
+            </div>
+            <div class="occu">
+            <label for="occupa">What is your occupation</label>
+            <textarea name="occupation" id="occupa" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </section>
+</form>
+</body>
+</html>
